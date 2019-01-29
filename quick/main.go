@@ -2,16 +2,16 @@ package main
 
 import "fmt"
 
-var count int
+
 
 func main() {
-	array := []int{5, 1, 4, 2, 8}
-	QuickSort(array)
-	fmt.Println(array, count)
+	array := []int32{5, 1, 4, 2, 8}
+	minimumSwaps := MinimumSwaps(array)
+	fmt.Println(array, minimumSwaps)
 }
 
-func QuickSort(array []int) {
-
+func MinimumSwaps(array []int32) int32 {
+	var minimumSwaps int32
 	arrayLength := len(array)
 	if arrayLength > 1 {
 
@@ -29,24 +29,24 @@ func QuickSort(array []int) {
 		if left < right {
 
 			Swap(&array[left], &array[right])
+			minimumSwaps++
 
 			left++
 			right--
 		}
 
-		QuickSort(array [0:right])
-		QuickSort(array [left:arrayLength])
+		minimumSwaps += MinimumSwaps(array [0:right])
+		minimumSwaps += MinimumSwaps(array [left:arrayLength])
 
 	}
-
+	return minimumSwaps
 }
 
-func Swap(number1, number2 *int) {
+func Swap(number1, number2 *int32) {
 	tempNumber1 := *number1
 	tempNumber2 := *number2
 	*number1 = tempNumber2
 	*number2 = tempNumber1
-	count++
 }
 
 func SortWithMoreMemoryAllocation(array []int, low int, high int) []int {
