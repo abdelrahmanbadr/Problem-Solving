@@ -17,6 +17,9 @@ class Rotation
     function rotate($numbers)
     {
 
+        //array shift result is first element of array --> $numbers[0];
+        //and modify the array it self to unset first element -->unset($numbers[0]);
+        //push first element in the last of the array
         array_push($numbers, array_shift($numbers));
 
         return $numbers;
