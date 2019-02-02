@@ -14,7 +14,15 @@ class Rotation
         return $A;
     }
 
-    public function rotate($array)
+    function rotate($numbers)
+    {
+
+        array_push($numbers, array_shift($numbers));
+
+        return $numbers;
+    }
+
+    public function rotate1($array)
     {
 
         $size = count($array);
