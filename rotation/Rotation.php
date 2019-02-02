@@ -5,7 +5,9 @@ class Rotation
 {
     public function solution($A, $K)
     {
-        // write your code in PHP7.0
+        if (empty($A)) {
+            return $A;
+        }
         for ($i = 0; $i < $K; $i++) {
             $A = rotate($A);
         }
