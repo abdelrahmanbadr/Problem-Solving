@@ -8,13 +8,14 @@ class  MinimumSwaps
     {
         $swaps = 0;
         for ($i = 0; $i < count($arr); $i++) {
-            if ($i + 1 != $arr[$i]) {
-                $t = $i;
-                while ($arr[$t] != $i + 1) {
-                    $t++;
+            $nextIndex = $i + 1;
+            if ($nextIndex != $arr[$i]) {
+                $j = $i;
+                while ($arr[$j] != $nextIndex) {
+                    $j++;
                 }
-                $temp = $arr[$t];
-                $arr[$t] = $arr[$i];
+                $temp = $arr[$j];
+                $arr[$j] = $arr[$i];
                 $arr[$i] = $temp;
                 $swaps++;
             }
