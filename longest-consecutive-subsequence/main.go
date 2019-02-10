@@ -8,7 +8,7 @@ import "fmt"
 func main() {
 	longest := 0;
 	mp := make(map[int]bool)
-	arr := []int{2, 1, 6, 9, 4, 3, 7, 11, 10}
+	arr := []int{3, 10, 3, 11, 4, 5, 6, 7, 8, 12}
 	for _, v := range arr {
 		mp[v] = true
 	}
