@@ -19,7 +19,7 @@ class BookingHotels
                 2
                 very friendly staff and good cost-benefit ratio.location far from citycenter";
         $array = explode("\n", $file);
-       // $reveiwsCount = $array[1];
+        // $reveiwsCount = $array[1];
         $reviews = [];
         $size = count($array);
         for ($i = 2; $i < $size; $i++) {
@@ -74,5 +74,5 @@ class BookingHotels
         }
         return $count;
     }
-}
+
 }

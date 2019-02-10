@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7efe870e-d02b-44a2-a4be-e6e8819fbb6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/booking_hotels/50929488_2255617728061256_2374487800763383808_n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking_hotels/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/longest-consecutive-subsequence/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/longest-consecutive-subsequence/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking_hotels/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/booking_hotels/main.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/booking_hotels/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="439">
+              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
             </state>
           </provider>
         </entry>
@@ -213,18 +210,18 @@
       <updated>1549048328212</updated>
       <workItem from="1549048329363" duration="9451000" />
       <workItem from="1549829797619" duration="881000" />
-      <workItem from="1549832784014" duration="71000" />
+      <workItem from="1549832784014" duration="89000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10403000" />
+    <option name="totallyTimeSpent" value="10421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -237,7 +234,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28433734" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28433734" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -342,8 +339,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/booking_hotels/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="439">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
         </state>
       </provider>
     </entry>
