@@ -20,6 +20,9 @@ func getMinimumNumberOfCoins(arr []int, number int) []int {
 }
 
 func main() {
+	x := "xooo"
+	x = ^x
+	fmt.Println(x)
 	result := []int{20, 10, 5, 1}
 	fmt.Println(getMinimumNumberOfCoins(result, 2))
 }
