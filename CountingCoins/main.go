@@ -12,11 +12,14 @@ func getMinimumNumberOfCoins(arr []int, number int) []int {
 			number -= value
 			result = append(result, value)
 		}
+		if number == 0 {
+			break
+		}
 	}
 	return result
 }
 
 func main() {
 	result := []int{20, 10, 5, 1}
-	fmt.Println(getMinimumNumberOfCoins(result, 0))
+	fmt.Println(getMinimumNumberOfCoins(result, 2))
 }
